@@ -1,0 +1,21 @@
+Version: 1.1.1
+Release date: 07/12/2022
+
+	- Exit button is now located under the other 2 buttons in the menu
+
+
+
+Version: 1.1.0
+Release date: 07/12/2022
+
+	- Changelog can now be found in change.log (That is, of course, here)
+	- Added input validation for all console inputs
+	- Fixed SG2 to Rank converter display number below 0 as Silver 1
+
+
+
+Version: 1.0.0
+Release date: 06/12/2022
+
+	- First official release
+	- Program now automatically goes back to the menu after outputting calculation
