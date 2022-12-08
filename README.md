@@ -1,7 +1,7 @@
 # csgo_elo
 A program for calculating approximate SG2 elo gain from CS:GO matches
 
-IMPORTANT: This program is written in python, and for simplification reasons it requires python to be installed on your local machine in order to run
+IMPORTANT: This program is written in python, and for simplification reasons it requires python (https://www.python.org/) to be installed on your local machine in order to run
 
 The executable file (the file you actually need) is csgo_elo.py
 
