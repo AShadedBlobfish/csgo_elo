@@ -1,6 +1,8 @@
 # csgo_elo
 A program for calculating approximate SG2 elo gain from CS:GO matches
 
+IMPORTANT: This program is written in python, and for simplification it requires python to be installed on your local machine in order to run
+
 About the SG2 elo system:
   - SG2 stands for simplified Glicko-2. Glicko-2 is the system CS:GO uses for calculating elo.
   - It is important to understand that the SG2 system is a mostly accurate estimation of the Actual Glicko-2 system.
