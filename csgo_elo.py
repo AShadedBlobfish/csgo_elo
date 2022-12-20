@@ -1,4 +1,4 @@
-version = '1.1.1'
+version = '1.1.2'
 changelog = 'change.log'
 
 import math
@@ -87,8 +87,14 @@ class elo_calculation:
         return (((5*(Ys-Os))/3)+M+(Oe-Ye))*(1-math.log(s,16))
     def main():
         root.destroy()
-        score = input_and_validate._int(0,16,"Your round wins: ")
-        e_score = input_and_validate._int(0,16,"Opponent round wins: ")
+        score = int(input("Your round wins: "))
+        while score != 32 and score < 0 or score > 16:
+            print("Input must be an integer in the range 0-16")
+            score = int(input("Your round wins: "))
+        e_score = int(input("Opponent round wins: "))
+        while e_score != 32 and score < 0 or score > 16:
+            print("Input must be an integer in the range 0-16")
+            e_score = int(input("Opponent round wins: "))
         mvp = input_and_validate._int(0,score,"MVPs: ","You cannot have more MVPs than your team's round wins")
         e_elo = input_and_validate._int(0,90,"Approximate elo of enemy team: ")
         elo = input_and_validate._int(0,90,"Approximate elo of your team: ")
@@ -175,4 +181,3 @@ def main():
     root.mainloop()
 
 main()
-
