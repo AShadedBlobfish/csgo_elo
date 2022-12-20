@@ -1,4 +1,4 @@
-version = '1.1.2'
+version = '1.1.3'
 changelog = 'change.log'
 
 import math
@@ -88,11 +88,11 @@ class elo_calculation:
     def main():
         root.destroy()
         score = int(input("Your round wins: "))
-        while score != 32 and score < 0 or score > 16:
+        while score != 32 and (score < 0 or score > 16):
             print("Input must be an integer in the range 0-16")
             score = int(input("Your round wins: "))
         e_score = int(input("Opponent round wins: "))
-        while e_score != 32 and score < 0 or score > 16:
+        while e_score != 32 and (e_score < 0 or e_score > 16):
             print("Input must be an integer in the range 0-16")
             e_score = int(input("Opponent round wins: "))
         mvp = input_and_validate._int(0,score,"MVPs: ","You cannot have more MVPs than your team's round wins")
