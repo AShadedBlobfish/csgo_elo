@@ -1,4 +1,12 @@
 # csgo_elo
+
+### Important notice about CS2
+-----------------------
+
+Due to the release of CS2 and Valve wiping CS:GO off the face of the earth, this repository is now going to be archived. N.B It is currently unknown whether this programs calculations are even remotely accurate in CS2
+
+-----------------------
+
 A program for calculating approximate SG2 elo gain from CS:GO matches
 
 IMPORTANT: This program is written in python, and for simplification reasons it requires python (https://www.python.org/) to be installed on your local machine in order to run
