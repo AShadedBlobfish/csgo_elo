@@ -3,7 +3,7 @@
 ### Important notice about CS2
 -----------------------
 
-Due to the release of CS2 and Valve wiping CS:GO off the face of the earth, this repository is now going to be archived. N.B It is currently unknown whether this programs calculations are even remotely accurate in CS2
+Due to the release of CS2 and Valve wiping CS:GO off the face of the earth, this repository is now going to be archived.<br> N.B It is currently unknown whether this programs calculations are even remotely accurate in CS2
 
 -----------------------
 
